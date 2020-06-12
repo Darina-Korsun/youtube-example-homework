@@ -1,0 +1,113 @@
+body {
+    background-image: url(Images/sakura.png);
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Segoe UI';
+  }
+  
+  
+  h1 {
+    color: rgb(132, 27, 158);
+  }
+  
+  
+  .flex-container {
+    background-color: pink;
+    display: flex;
+    border-style: double;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 20px 0 20px;
+  }
+  
+  
+  .content {
+    width: 30%;
+    margin: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black !important;
+    background-color: purple;
+    float: left;
+    position: sticky;
+  }
+  
+  
+  iframe {
+    width: 80%;
+    padding: 2px;
+  
+  }
+  
+  div {
+    font-family: monospace;
+  }
+  
+  #firstrow {
+    color: rgb(248, 201, 232);
+    flex: 1;
+  }
+  
+  #secondrow {
+    color: rgb(153, 177, 248);
+    flex: 1;
+  }
+  
+  #thirdrow {
+    color: rgb(245, 105, 70);
+    flex: 1;
+  }
+  
+  #logo {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .navbar {
+    height: 50px;
+    background-color: purple;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  li {
+    float: left;
+    height: 100%;
+    border-left: 1px solid grey;
+  }
+  
+  nav {
+    height: 100%;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:link,
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: rgb(116, 116, 248);
+  }
+  
+
+
+  
